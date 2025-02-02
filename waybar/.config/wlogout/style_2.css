@@ -1,0 +1,66 @@
+window {
+    font-family: CaskaydiaCove Nerd Font, monospace;
+    font-size: 12pt;
+    color: #cdd6f4; 
+    background-color: rgba(17, 17, 27, .88);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;  /* Reduced size of the icon */
+    border: none;
+    color: #ced7f4;
+    text-shadow: none;
+    border-radius: 20px;
+    background-color: rgba(30, 30, 46, 0);
+    margin: 5px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    outline: none;  /* Remove the box around the icons */
+    padding: 0;  /* Remove any extra space around the icon */
+}
+
+button:hover {
+    background-color: rgba(49, 50, 68, 0.1);
+}
+
+#lock {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/lock.png");
+    background-size: 40%;  /* Reduced size of the icon */
+}
+#lock:focus {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/lock.png");
+}
+
+#logout {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/logout.png");
+    background-size: 40%;  /* Reduced size of the icon */
+}
+#logout:focus {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/logout.png");
+}
+
+#suspend {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/sleep.png");
+    background-size: 40%;  /* Reduced size of the icon */
+}
+#suspend:focus {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/sleep.png");
+}
+
+#shutdown {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/power.png");
+    background-size: 40%;  /* Reduced size of the icon */
+}
+#shutdown:focus {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/power.png");
+}
+
+#reboot {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/restart.png");
+    background-size: 40%;  /* Reduced size of the icon */
+}
+#reboot:focus {
+    background-image: url("/home/saliniyan/.config/wlogout/icons/restart.png");
+}
+
